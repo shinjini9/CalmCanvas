@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CalmCanvas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎨 CalmCanvas</h1>
+    <div class="controls">
+      <label>Brush Color:</label>
+      <input type="color" id="colorPicker" />
+
+      <label>Brush Size:</label>
+      <input type="range" id="brushSize" min="1" max="30" value="5" />
+
+      <button id="clearBtn">Clear Canvas</button>
+    </div>
+
+    <canvas id="drawingCanvas" width="800" height="500"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
